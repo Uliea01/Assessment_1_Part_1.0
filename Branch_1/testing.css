@@ -1,0 +1,131 @@
+
+/* Navbar begin */
+.navbar{
+    background: #0C0DF0;
+    display: flex;
+    padding: 20px 20px;
+}
+.home{
+    background: black;
+    padding: 20px;
+    list-style-type: none;
+
+}
+.nav-links {
+    display: center;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+.nav-links li{
+    display: inline;
+}
+
+.nav-links a{
+    color: #F5D026;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px;
+  
+}
+
+.nav-links a:hover{
+    color:#232376;
+    padding: 15px;
+}
+/* Navbar end */
+
+/* Image gallery start */
+.div-gallery :hover{
+    color: red;
+
+}
+
+.div-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: #0C0DF0 solid;
+  }
+.div-gallery div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border:#0C0DF0 solid;
+  }
+
+.img_gallery{
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;  
+}
+/* Image gallery end */
+
+/* Form Start */
+.form{
+    font-family: Verdana, sans-serif;
+    background: #F5D026;
+    font-size: 14px;
+    padding: 15px;
+}
+.enquiry{
+    align-items: center;
+    font-size: 18px;
+}
+.name{
+    border: solid #0C0DF0;
+    display: inline-block;
+}
+.email{
+    display: inline-block;
+    border: solid #0C0DF0;
+}
+.product{
+    border: solid #0C0DF0;
+    display: inline-block;
+    margin: 5px;
+}
+.area-box{
+    border:#0C0DF0 solid;
+    display: inline-block;
+}
+
+input[type="checkbox"]{
+    outline: 2px solid #0C0DF0;
+}
+.btn{
+    border: solid #0C0DF0;
+    display: inline-block;
+    margin: 10px;
+}
+/* Form end */
+
+/* Paragraph Start */
+.div-paragraph{
+    font-family: arial;
+    background-color: #BDCACD;
+    color: black;
+    padding: 5px;
+}
+.h1{
+    font-size: 30px;
+}
+.h2{
+    font-size: 24px;
+}
+.p1 {
+    font-size: 16px;
+}
+.h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.p2{
+    font-size: 16px;
+}
+/* Paragrapah End */
