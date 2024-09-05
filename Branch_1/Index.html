@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Hayley</title>
+    <link rel="stylesheet" href="testing.css">
+</head>
+
+<!-- navbar-->
+<nav class="navbar">
+    <div class="logo"> 
+        <a href="#">
+        <li><img src="Orange_flowers.jpg" alt="Orange_flowers" width="75px" height="100x"/></li>
+        </a>    
+    </div>
+    <ul class="nav-links">
+        <li><a class="home">Home</a></li>
+        <li><a href="#"> Services</a></li>
+        <li><a href="#"> Contact</a></li>
+        <li><a href="#"> About</a></li>
+    </ul>
+</nav>
+<body class="body">
+
+<!-- image gallery-->
+    <h1 class="img_gallery">Image Gallery</h1>
+        <div class="div-gallery">
+            <div>
+                <img src="Photo_1.jpg"width="300" height="200"alt="Photo_1">
+                <p>This is an image</p>
+            </div>
+            <div >
+                <img src="Photo_3.jpg" width="300" height="200" alt="Photo_3">
+                <p>This is an image</p>
+            </div>
+            <div>
+                <img src="Photo_4.jpg" width="300" height="200" alt="Photo_4">
+                <p>This is an image</p>
+            </div>
+            <div >
+                <img src="Photo_5.jpg" width="150" height="200" alt="Photo_5">
+                <p>This is an image</p>
+            </div>
+        </div> 
+
+        <!--form-->
+         <form class="form">
+            <h1 class="enquiry">Product Enquiry Form</h1>
+            
+            <!-- full name -->
+            <section> 
+                <label for="full_name">Full Name:</label> <br>
+                <div  class="name">
+                <input id="full_name" type="name" name="name" placeholder="John Smith" size="100%" />
+                </div>
+            </section>
+    
+            <!-- email -->
+            <section>
+                <label for="email">Email:</label> <br>
+                <div  class="email">
+                <input id="email" type="email" name="email" placeholder="john@mail.com." size="100%" />
+                </div>
+            </section>
+    
+            <!-- product -->
+            <section>
+                <label for="product">Product:</label>
+                <br>
+                <div class="product">
+                <select id="product" name="product" width="100%">
+                    <option value="Select">Select</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+    
+                </select>
+                </div>
+            </section>
+    
+            <section class="message">
+                <label for="message">Message:</label><br>
+                <div class="area-box">
+                <textarea id="message" type="message" name="message" placeholder="Type your message here" cols="50 " rows="5" size="100%"></textarea>
+                </div>
+            </section>
+    
+            <!-- preferences-->
+            <section>
+                <label for="nwesletter-prefs"> </label><br>
+                <div>
+                <input id="newsletter-prefs" type="checkbox" name="prefs"/>
+                Subscribe to our newsletter 
+                </div>
+              </section>
+    
+              <!-- Submit button-->
+              <section>
+                <div class="btn">
+                <input id="button" type="submit" value="submit">
+                </div>
+              </section>
+         </form>
+         
+
+
